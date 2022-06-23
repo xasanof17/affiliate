@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --main-color: #1d2f38;
+  --dark: #333;
+  --black: #000;
+  --white: #fff;
+  --gray: #536d7a;
+  --green: #17a550;
+  --grayBg: #e3ebf1;
+  --lightGrayBg: #f7f9fa;
+  --yellow: #ffc728;
+  --inpBorder: #AABCC5;
+  --searchbBtn: #768F9C;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border-radius: none;
+  outline: none;
+  border: none;
+}
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bitter", serif;
+}
+h2 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 40px;
+  color: var(--main-color);
+}
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  margin-left: 25px;
+}
+
+@media (max-width: 425px) {
+  h2{
+    font-size: 27px;
+  }
+}
