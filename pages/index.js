@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="App">
       <Head>
-        <title>Affiliate</title>
+        <title>Affiliate Website</title>
         <meta name="description" content="This maked by Bandit" />
         <link rel="icon" href="./logo.svg" />
       </Head>
