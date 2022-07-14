@@ -48,8 +48,8 @@ h2 {
   color: var(--main-color);
 }
 ul {
-  padding-left: 0;
-  margin-bottom: 0;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
 }
 .navbar-brand {
   margin-left: 25px;
